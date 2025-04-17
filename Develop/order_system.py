@@ -27,9 +27,8 @@ def place_order(menu):
     # Launch the store and present a greeting to the customer
     print("Welcome to the Generic Take Out Restaurant.")
 
-    # TODO: Create a continuous while loop so customers can order multiple items
-
-        # TODO: Ask the customer what they want to order
+    while True:
+        menu_selection = input("\nPlease enter the number of the item you'd like to order: ")
 
 
         # Create a variable for the menu item number
